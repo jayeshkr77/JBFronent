@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap");
+
+.login-form{
+  padding: 1rem;
+}
+.title{
+  color: #2b4458;
+  opacity: 0.7;
+  margin-bottom: 5px;
+  font-size: 1.8rem;
+  text-align: center;  
+}
+.field{
+ display: flex;
+ flex-direction: column;
+ margin: 10px 0;
+}
+.label{
+  color: #2b4458;
+ opacity: 0.7;
+ margin-bottom: 5px;
+ font-size: 1.2rem;
+ text-align: left;
+}
+
+input{
+ border-radius: 5px;
+ border: 2px solid #d3e2ee;
+ padding: 12px 20px;
+ padding-right: 20px;
+ background: #fff;
+ color: #091841;
+ font-weight: 700;
+ font-size: 13px;
+ font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.login-btn{
+  color:white;
+  background-color: #091841;
+}
+
+.failure-toast{
+  color: #781c1c;
+  border: 1px solid #781c1c;;
+  border-left:5px solid #781c1c;;
+ /* opacity: 0.7; */
+ margin-bottom: 5px;
+ font-size: 1.2rem;
+ text-align: center;
+ border-radius: 5px;
+ padding: 12px 20px;  
+}
+.success-toast{
+  color: #215924;
+  border: 1px solid #215924;
+  border-left:5px solid #215924;
+ /* opacity: 0.7; */
+ margin-bottom: 5px;
+ font-size: 1.2rem;
+ text-align: center;
+ border-radius: 5px;
+ padding: 12px 20px;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
