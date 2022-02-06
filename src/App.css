@@ -67,3 +67,21 @@ input{
 input[type=number] {
   -moz-appearance: textfield;
 }
+
+.pin{
+  display:flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.pin input[type=number] {
+  margin-right: 1rem;
+  width:24%;
+  padding: 12px 0px;
+  text-align: center;
+}
+
+.pin input[type=number]:focus {
+  /* -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777; */
+       box-shadow: 0px 10px 6px -6px #777;
+}
